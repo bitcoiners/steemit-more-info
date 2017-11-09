@@ -46,7 +46,7 @@ var onMessage = function(request, sender, sendResponse) {
     var manifestData = chrome.runtime.getManifest();
     var currentVersion = manifestData.version;
 
-    $.get('https://raw.githubusercontent.com/armandocat/steemit-more-info/master/manifest.json?t=' + new Date().getTime())
+    $.get('https://raw.githubusercontent.com/bitcoiners/steemit-more-info/master/manifest.json?t=' + new Date().getTime())
     .done(function(data) {
       sendResponse({
         currentVersion: currentVersion,

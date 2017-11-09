@@ -11,6 +11,7 @@
 
     "version": "1.5.0",
     "homepage_url": "https://steemit.com/steemdev/@armandocat/steemit-more-info-1-5-chrome-extension-firefox-extension",
+    "version": "1.5.1",
 
     "background" : {
         "scripts" : ["vendor/jquery-3.2.1.min.js","background.js"]
@@ -63,6 +64,7 @@
         "src/main.css",
         "src/profile_banner.js",
         "src/base_tab.js",
+        "src/pushup_button.js",
         "src/votes_tab.js",
         "src/mentions_tab.js",
         "src/vote_weight_slider.js",
