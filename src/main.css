@@ -624,6 +624,7 @@ html.smi-mobile.smi-posts-histogram-posts-list-shown body {
   border-right: none;
 }
 .smi-post-floating-footer-on-body.smi-post-footer-small .smi-boost-button,
+.smi-post-floating-footer-on-body.smi-post-footer-small .smi-pushup-button,
 .smi-post-floating-footer-on-body.smi-post-footer-small .smi-promote-button {
   display: none;
 }
@@ -977,6 +978,28 @@ html.smi-mobile.smi-posts-histogram-posts-list-shown body {
     opacity: 1 !important;
   }
 
+.button.smi-pushup-button {
+  color: #4d1599;
+  border-color: #4d1599;
+  margin-bottom: 0px;
+}
+.button.smi-pushup-button:focus,
+.button.smi-pushup-button:hover {
+  color: #4d1599;
+  border-color: #4d1599;
+  background-color: #f6f968;
+}
+
+.pushup-button {
+  width: 20px;
+  margin-left: 20px;
+}
+.pushup-button:focus,
+.pushup-button:hover {
+  color: #4d1599;
+  border-color: #4d1599;
+  background-color: #f6f968;
+}
 
 
 .button.smi-boost-button {
